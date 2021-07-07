@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Web Rèsumè</title>
+  <link rel="icon" href="favicon.ico">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src=https://www.googletagmanager.com/gtag/js?id=G-MJF3Q8MD0D></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-MJF3Q8MD0D');
+
+</script>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+  <!-- Including Montserrat and Ubuntu font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesCV.css">
+
+</head>
+
+<body>
+
+  <!-- Welcome Section -->
+
+  <section id="welcome">
+    <!-- <div class="container-fluid-nav"> -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">My Web Rèsumè</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" name="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--ms-auto means add enough margin to s (start which is left side), in order to push it all the way to the right edge -->
+        <div class="collapse navbar-collapse navDiv" id="navbarTogglerDemo02">
+          <!--navbar-nav organizes the list items neatly and also stlyes the text -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#workExp">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Personalia Section -->
+
+  <section id="personalia" class="white-section">
+
+    <div id="profile" class="container-fluid">
+      <h1 class="colored-text1">Hi! I'm Erik</h1>
+      <div class="row">
+        <div class="col-lg-4 profile-Text">
+          <h3 class="colored-text1">About me</h3>
+          <p>
+            I am an engineer with a large range of different skills. I know my way around in Computer Science, Mathematics and Physics.
+            My work experience is broad, covering disciplines such as petroleum technology, programming, database technology and finance.
+            I currently work with credit risk modelling in DNB.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="Images/erik-cropped.png" class="profilePic" alt="Erik Westergaard" width="246" height="246">
+          <p class="colored-text1"><em>This guy wants to be your new developer</em></p>
+        </div>
+        <div class="col-lg-4 profile-Text">
+          <br>
+          <p class="p-details"><i class="fas fa-2x fa-user profile-Icon" title="Name"></i>Erik Westergaard
+            <br>
+            <i class="fas fa-2x fa-baby profile-Icon" title="Born"></i>1988 in Tromsø, Norway
+            <br>
+            <!-- <i class="fas fa-2x fa-mobile-alt profile-Icon"></i>Upon request<br> -->
+            <i class="fas fa-2x fa-home profile-Icon" title="Address"></i>Lier, Norway
+            <br>
+            <i class="fas fa-2x fa-briefcase profile-Icon" title="Employment"></i>Senior Analyst - Group Risk, DNB
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Personal attributes -->
+
+  <section id="personalAtt">
+
+    <div class="container-fluid">
+
+      <h2 class="colored-text2">Personal Strengths</h2>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="feature-box">
+            <i class="fas fa-lightbulb fa-4x skill-icon"></i>
+            <h4 class="feature-title">Creative</h4>
+          </div>
+          <p class="colored-text2" style="font-weight: bold;">I'm good at visualizing and coming up with different solutions to solve a problem</p>
+        </div>
+        <!-- <div class="col-lg-4">
+        <div class="feature-box">
+          <i class="fas fa-balance-scale-right fa-4x skill-icon"></i>
+          <h4 class="feature-title">Reliable</h4>
+        </div>
+        <p class="colored-text2" style="font-weight: bold;">I take full responsibility for my tasks and complete them in time</p>
+      </div> -->
+        <div class="col-lg-4">
+          <div class="feature-box">
+            <i class="fas fa-people-carry fa-4x skill-icon"></i>
+            <h4 class="feature-title">Teamworker</h4>
+          </div>
+          <p class="colored-text2" style="font-weight: bold;">I collaborate well with all kinds of people</p>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-box">
+            <i class="fas fa-search-plus fa-4x skill-icon"></i>
+            <h4 class="feature-title">Accurate</h4>
+          </div>
+          <p class="colored-text2" style="font-weight: bold;">I do my work with a high level of accuracy and make sure my work can be trusted</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Education -->
+
+  <section id="education" class="white-section">
+
+    <div class="container-fluid">
+      <h2 class="colored-text1">Education</h2>
+      <div class="row">
+        <div class="col-lg-6 education-text">
+          <ul>
+            <li>
+              <span class="education-title">
+                <h5 class="colored-text1">2008-2013</h5>
+              </span>
+              <span>
+                <h6 class="colored-text2 school">Norwegian University of Science and Technology</h6>
+                <p>Master in Technology: Engineering and ICT with specialization in Petroleum Technology</p>
+              </span>
+            </li>
+            <li>
+              <span class="education-title">
+                <h5 class="colored-text1">2011-2012</h5>
+              </span>
+              <span>
+                <h6 class="colored-text2 school">University of New South Wales (UNSW), Sydney</h6>
+                <p>Exchange year in Australia</p>
+              </span>
+            </li>
+            <li>
+              <span class="education-title">
+                <h5 class="colored-text1">2007-2008</h5>
+              </span>
+              <span>
+                <h6 class="colored-text2 school">Norwegian Army, Garrison of Sør-Varanger (GSV)</h6>
+                <p>Communications Technician | Operations Platoon</p>
+              </span>
+            </li>
+            <li>
+              <span class="education-title">
+                <h5 class="colored-text1">2004-2007</h5>
+              </span>
+              <span>
+                <h6 class="colored-text2 school">Kongsbakken High School, Tromsø</h6>
+                <p>General education with specialization within math, information technology and German</p>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div id="carouselEducation" class="carousel carousel-dark slide" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <img src="Images/ntnu.jpg" class="education-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-heading">NTNU</h5>
+                  <!-- <p class="carousel-text">2008-2013</p> -->
+                </div>
+              </div>
+              <div class="carousel-item container-fluid">
+                <img src="Images/unsw1.jpg" class="education-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-heading">UNSW</h5>
+                  <!-- <p class="carousel-text">2011-2012</p> -->
+                </div>
+              </div>
+              <div class="carousel-item container-fluid">
+                <img src="Images/gsv-army.jpg" class="education-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-heading">Garrison of Sør-Varanger</h5>
+                  <!-- <p class="carousel-text">2007-2008</p> -->
+                </div>
+              </div>
+              <div class="carousel-item container-fluid">
+                <img src="Images/kongsbakken.jpg" class="education-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-heading">Kongsbakken High School</h5>
+                  <!-- <p class="carousel-text">2004-2007</p> -->
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEducation" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselEducation" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+
+  <section id="workExp">
+    <h2>Work Experience</h2>
+    <div class="experiences container-fluid">
+
+      <div class="row work-item">
+        <div class="col-lg-1">
+
+          <img src="Images/dnb-logo.jpg" class="company-logo" alt="">
+        </div>
+        <div class="col-lg-4">
+          <h4>DNB - Group Risk</h4>
+          <h6 class="experience-period">
+            2017 - Today</h6>
+        </div>
+        <div class="col-lg-7">
+          <h4>
+            <strong>Senior Credit Risk Analyst</strong>
+          </h4>
+          <span>Credit risk analyst responsible for programming the backend business logic of credit risk models with Java and Sql.
+            Deliver statistical and factual analyses on the bank's credit risk, for model development, risk reporting and strategical decisions.</span>
+          <br>
+          <br>
+          <h6 style="padding-bottom: 2%;"><em>Highlights</em></h6>
+          <ul>
+            <li>Implementation, maintenance and governance of credit risk models used in DNBs credit case applications (Zenit and ASAP) and data warehouse.
+              Responsible for coding and deploying.</li>
+            <li>Statistical analyses to determine new calibration levels of existing risk models, in line with new EBA framework regulations.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="height:3px; margin-bottom:40px;">
+
+      <div class="row work-item">
+        <div class="col-lg-1">
+          <img src="Images/Schlumberger.png" class="company-logo" alt="">
+        </div>
+        <div class="col-lg-4">
+          <h4>Schlumberger - Software Integrated Solutions</h4>
+          <h6 class="experience-period">
+            2013 - 2017</h6>
+        </div>
+        <div class="col-lg-7">
+          <h4>
+            <strong>Petro Technical Expert</strong>
+          </h4>
+          <span>Production Engineer with expertise within reservoir monitoring, flow analysis and data management applications.
+            Worked with technical consultancy on petroleum production and implementation of Production Data Management systems for costumers in the oil and gas industry.</span>
+          <br>
+          <br>
+          <h6 style="padding-bottom: 2%;"><em>Highlights</em></h6>
+          <ul>
+            <li>Implementation of Production Data Management Systems (PDMS) For Bayerngas, Core Energy and ConocoPhillips.
+              PDMS includes financial analyses, business intelligence logic and automated workflows for oil field data.</li>
+            <li>Technical Consultancy for Statoil and Maersk Oil & Gas (2015).
+              Consultancy on the use of software applications for monitoring reservoir oil production and well testing.</li>
+            <li>Sporadic technical customer phone line support for clients on petroleum production applications, within the whole Europen and African markets.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="height:3px; margin-bottom:40px;">
+
+      <div class="row work-item">
+        <div class="col-lg-1">
+          <img src="Images/posten.jpg" class="company-logo" alt="">
+        </div>
+        <div class="col-lg-4">
+          <h4>Tromsø Post-terminal</h4>
+          <h6 class="experience-period">
+            2009-2012</h6>
+        </div>
+        <div class="col-lg-7">
+          <h4>
+            <strong>Mailman, part-time job</strong>
+          </h4>
+          <span>
+            Transport and delivery of mail
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills" class="white-section">
+    <!-- <h2 class="section-heading">My Technological Skills</h2> -->
+    <h2>My Technological Skills</h2>
+    <!-- <h5>Gained throughout my education, work and self-studies</h5> -->
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn w-100 dropdown-toggle" data-toggle="dropdown" data-bs-toggle="collapse" href="#firstCard" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: #f3f6f8;">
+              <!-- <i class="fa fa-bars"></i> -->
+              Frontend
+            </a>
+          </div>
+          <div class="card-body card-element collapse" id="firstCard">
+            <ul>
+              <li>
+                <span class="ability-title">HTML</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">CSS</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">JavaScript</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">React</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn w-100 dropdown-toggle" data-toggle="dropdown" data-bs-toggle="collapse" href="#secondCard" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: #f3f6f8;">
+              <!-- <i class="fa fa-bars"></i> -->
+              Backend
+            </a>
+          </div>
+          <div class="card-body card-element collapse" id="secondCard">
+            <ul>
+              <li>
+                <span class="ability-title">Java</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">SQL</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">Python</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">Node</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+                <span class="ability-title">Express</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+                <span class="ability-title">REST API</span>
+                <span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn w-100 dropdown-toggle" data-toggle="dropdown" data-bs-toggle="collapse" href="#thirdCard" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: #f3f6f8;">
+              <!-- <i class="fa fa-bars"></i> -->
+              Learning Plan*
+            </a>
+          </div>
+          <div class="card-body card-element collapse" id="thirdCard">
+            <ul>
+              <li>
+                <span class="ability-title">AWS</span>
+                <span>
+                  <span>Jul-Oct 21</span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">Kubernetes</span>
+                <span>
+                  <span>Jul-Oct 21</span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">Java Spring</span>
+                <span>
+                  <span>Jul-Oct 21</span>
+                </span>
+              </li>
+              <li>
+                <span class="ability-title">Web Security</span>
+                <span>
+                  <span>Jul-Oct 21</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p><em>*Skills currently in progress</em></p>
+  </section>
+
+  <!-- Interests -->
+
+  <section id="interests" class="">
+
+    <h2 class="colored-text2" style="padding-bottom:2%;">Interests</h2>
+
+    <div class="container-fluid">
+
+      <div class="row row-cols-xxl-4 row-cols-xl-2 row-cols-sm-1">
+        <div class="col">
+          <div class="card hoverSep">
+            <img src="Images/football.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Football</h5>
+              <p class="card-text">Teamwork</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hoverSep">
+            <img src="Images/guitar.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Music</h5>
+              <p class="card-text">Vision</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card hoverSep">
+            <img src="Images/snowboard-me.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Snowboarding</h5>
+              <p class="card-text">Boldness</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card hoverSep">
+            <img src="Images/editing.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Video Editing</h5>
+              <p class="card-text">Creativity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="hobbies">
+      <h1>My interests</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="webDesign"
+            src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+            alt="">
+        </div>
+        <div class="col-lg-6">
+          <h3>Football</h3>
+          <p class="webDesignText">It makes me a great Team Player</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Music</h3>
+          <p class="duckText">It makes me visionary</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="duck" src="https://media4.giphy.com/media/gdToZ7Nj5nnYyK1ADD/giphy.gif?cid=ecf05e47yli92m8nm6qatw37sk7byjrb5o867y9wvnmty6kp&rid=giphy.gif&ct=s" alt="duck">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="webDesign"
+            src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+            alt="">
+        </div>
+        <div class="col-lg-6">
+          <h3>Snowboarding</h3>
+            <p class="webDesignText">It makes me enjoy the moment</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Music</h3>
+          <p class="duckText">It makes me visionary</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="duck" src="https://media4.giphy.com/media/gdToZ7Nj5nnYyK1ADD/giphy.gif?cid=ecf05e47yli92m8nm6qatw37sk7byjrb5o867y9wvnmty6kp&rid=giphy.gif&ct=s" alt="duck">
+        </div>
+      </div>
+  </div> -->
+
+
+  </section>
+
+  <!-- Piano section -->
+
+  <section id="piano">
+
+    <h2 class="piano-heading">Thank you for reading!</h2>
+    <br>
+    <h3 class="piano-heading"> Now please do me a favor and play me out 🎹</h3>
+    <br>
+    <i class="fas fa-4x fa-volume-up"></i>
+    <br><br>
+    <h3>Can you play the DNB melody?</h3>
+    <br>
+    <h6 style="font-weight:400; font-size:1.5rem;">Use keyboard keys:</h6>
+    <br>
+    <!-- <h6>M - B - M - N</h6>
+    <h6>M - C - M - V</h6> -->
+    <span id="M1">M -</span>
+    <span id="B"> B -</span>
+    <span id="M2"> M -</span>
+    <span id="N"> N</span>
+    <br>
+    <span id="M3">M -</span>
+    <span id="C"> C -</span>
+    <span id="M4"> M -</span>
+    <span id="V"> V</span>
+
+    <div class="set">
+      <button class="c key">C</button>
+      <button class="v key">V</button>
+      <button class="b key">B</button>
+      <button class="n key">N</button>
+      <button class="m key">M</button>
+    </div>
+    <h3 id="victory"></h3>
+
+  </section>
+
+  <section id=showoff>
+    <p class="showoff-text">Made in Norway - with loads of</p>
+    <i class="fab fa-html5 fa-4x tech-icon" title="HTML"></i>
+    <i class="fab fa-css3-alt fa-4x tech-icon" title="CSS"></i>
+    <i class="fab fa-bootstrap fa-4x tech-icon" title="Bootstrap"></i>
+    <i class="fab fa-js fa-4x tech-icon" title="JavaScript"></i>
+    <!-- <i class="fab fa-react fa-4x tech-icon" title="React"></i> -->
+    <p class="showoff-text">...and of course loads of</p>
+    <i class="fas fa-heart fa-4x tech-icon" title="Love"></i>
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact" class="white-section">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/erik.westergaard.359" target="_blank"><i class="contact-icon fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/erik-westergaard-1713258b/?originalSubdomain=no" target="_blank"><i class="contact-icon fab fa-linkedin-in fa-2x"></i></a>
+      <a href="mailto:erik.westergaard@dnb.no" target="_blank"><i class="contact-icon fas fa-at fa-2x"></i></a>
+
+    </div>
+  </section>
+  <script src="indexCV.js" charset="utf-8"></script>
+</body>
+
+</html>
